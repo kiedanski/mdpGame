@@ -9,6 +9,7 @@ services:
      - ./notebooks:/home/jovyan/work/notebooks
      - ./notes:/home/jovyan/work/notes
      - ./data:/home/jovyan/work/data
+     - ./misc:/home/jovyan/work/misc
     ports:
       - 8889:8888
     environment:
