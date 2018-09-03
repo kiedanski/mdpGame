@@ -10,6 +10,7 @@ services:
      - ./notes:/home/jovyan/work/notes
      - ./data:/home/jovyan/work/data
      - ./misc:/home/jovyan/work/misc
+     - ./jupyter:/home/jovyan/.local/share/jupyter
     ports:
       - 8889:8888
     environment:
