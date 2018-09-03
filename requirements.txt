@@ -1,0 +1,7 @@
+ipympl
+networkx==2.1
+numpy==1.15.0
+sympy==1.2
+quantecon==0.4.0
+seaborn==0.9.0 
+pandas==0.23.4 
