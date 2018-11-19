@@ -14,4 +14,4 @@ services:
       - 8889:8888
     environment:
       - JUPYTER_ENABLE_LAB=yes
-    command: start-notebook.sh 
+    command: start-notebook.sh --NotebookApp.token="abcd1234"
